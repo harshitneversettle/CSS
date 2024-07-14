@@ -1,0 +1,38 @@
+
+body{
+    font-size: 1.5rem ;
+    font-family: "Roboto" , sans-serif;
+    line-height: 2rem ;
+}
+
+.block{
+    width: 15rem ;
+    height: 15rem ;
+    background-color: pink;
+    padding: 1rem ;
+    border-radius: 2rem ;
+}
+
+.left{
+    float: left ;
+    margin-right: 1.5rem ;
+}
+
+
+.right{
+    float: right ;
+    margin-left: 1.5rem ;
+}
+
+.clear{             /* image ke baju me jo dusra para start ho raha hai vo image ke baad se chalu ho */ 
+    clear:both ;
+}
+
+section{
+    border: 1px solid black ;
+    background-color: bisque;
+    padding: 1rem ;
+    
+   /*  problem is ki agar hum text ko kum karenge toh bisque wala jo box hai vo chtoa ho jyega */ 
+   display: flow-root ;
+}

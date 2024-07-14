@@ -1,0 +1,44 @@
+/* *{
+    /* // universal selector  
+    font-family : monospace ;
+    border : 3px solid red ;
+
+    har element pr individually apply hota hai 
+} */
+
+
+
+body{
+    font-size : 22px ;
+    border: 3px solid black;
+}
+
+.kohli{
+    color:orange;
+}
+
+
+
+.anushka{
+    color: blue;
+}
+
+
+#first{
+    font-style: italic ;
+}
+
+
+h1,h2{
+    color: brown;
+}
+
+p span{
+    background-color: gold ;
+    text-transform: uppercase ;
+
+}
+
+#highlight{
+    color: gold;
+}

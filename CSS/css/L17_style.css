@@ -1,0 +1,48 @@
+*{
+    border: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+body{
+    width : 100vw ;
+    height : 100vh ;
+}
+
+.container {
+    width : 100% ;
+    height : 100% ;
+    background-color: beige ;
+    border: 4px solid black ;
+}
+
+.box{
+    width: 300px ;
+    height : 100px ;
+    /* position: relative ; */
+    background-color: purple ;
+    border: 3px solid black ;
+    margin : 3rem ;
+    
+    animation-name: rightMovement ;
+    animation-duration: 3s ;
+    animation-iteration-count : 1 ;
+    animation-timing-function: linear ;
+    animation-direction: alternate   ;
+    animation-fill-mode: forwards ;
+    
+
+}
+
+@keyframes rightMovement {
+    from{
+        top: 0 ;
+        left: 0 ;
+    }
+    to{
+        top:0 ;
+        left: 1350px  ;
+    }
+
+
+}

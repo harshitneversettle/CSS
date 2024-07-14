@@ -1,0 +1,71 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing:border-box ;
+}
+
+.container {
+    background-image : url(../img/HD-wallpaper-beautiful-landscape-nature-scenery-nature-scenery-artist-sea-ocean-deviantart-thumbnail.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+
+body{
+    width : 100vw ;
+    height: 100vh ;
+    font-family: "Nunito" , sans-serif ;
+    
+}
+
+
+
+/* .profilepic img{
+    width: 100%;
+    height: auto;
+    border: 5px double gray;
+    border-radius: 50%;
+
+} */
+
+.profile{
+    padding: 20px ;
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap : nowrap ;
+    justify-content: flex-start;
+    gap: 30px ;
+    flex : space-between ;
+    align-items: center ;
+    border-bottom: 2px solid black ;
+    
+    background-color: hsla(0, 0%, 0%, 0.329) ;
+
+    
+}
+
+.nowrap{
+    white-space: nowrap ;
+}
+
+img{
+    border: 4px double black ;
+    border-radius: 50% ;
+    
+}
+
+h1{
+    font-size: 500% ;
+    color: aliceblue ;
+    text-shadow : 2px 2px 5px black  ;
+    
+}
+
+.offscreen {
+    display:flex ;
+    justify-content: center ;
+    align-items: center ;
+    color: aliceblue ;
+    font-size: 1.5rem ;
+    font-family: monospace ;
+}

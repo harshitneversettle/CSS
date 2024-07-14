@@ -1,0 +1,66 @@
+*{
+    padding: 0rem ;
+    margin: 0rem ;   /*  // isse list ke nupar neeche ke faltu ke space hat gye ; */
+    box-sizing: border-box ;   /* // imp ... jo horizontal or verticle line mil nhi rhe the vo milne lage  */
+}
+
+nav {
+    border : 2px solid black ;
+    text-align : center ;
+    font-size: 2rem ;
+    max-width: 600px ;
+    max-height: 800px ;
+    border-radius: 2rem ;
+    margin-left : 5rem ;
+    
+   
+}
+
+main{
+    line-height: 2em;
+    
+    
+}
+
+li{
+    list-style-type: none  ;
+    line-height : 3em ;
+    border-top: 2px solid gray ;
+   
+}
+
+p{
+    text-align: center ;
+}
+
+header{
+    border: 2px solid black ;
+    border-radius: 2rem 2rem 0 0  ;
+    background-color: gold ;
+    padding: 2rem ;         /* isse CSS menu ki height badhi */ 
+    
+}
+
+a{
+    color: navy  ;
+    display: block ;    /* pura box gray hone laga  */
+    /* border-top: 1px solid black ; */
+   
+    
+}
+
+ a:hover, a:visited , a:focus  {
+    color: rgb(0,0,128,0.4) ;
+    background-color :gray ;
+    text-decoration:  none ;
+    cursor: pointer; 
+    
+}
+li:last-child a{     /* gray wale ko bhi round me krne ko */ 
+    border-radius: 0 0 2rem 2rem ;
+}
+
+li:first-child{        /* // this is here to select specific list */ 
+    border-top: none ;
+}
+

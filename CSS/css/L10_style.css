@@ -1,0 +1,66 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+
+body{
+    font-size : 2rem ;
+    font-family: "Roboto" , sans-serif ;
+}
+
+.opposite{
+    display: inline-block;
+    background-color: lightsalmon ;
+    
+}
+
+ul{
+
+    list-style-type: none ;     /* saamne ki dots hatne ke liye */
+    padding-left : 0 ;
+    text-align: right ;
+    background-color: black ;
+}
+
+li{
+    display: inline-block ;     /* teeno ko ek line me le aaya  */
+    margin-inline: 0.5rem ;     /*  teeno ke beech me thoda sa gap */ 
+}
+
+li a{
+    color : rgb(245, 222, 179) ;
+    text-decoration: none ;
+}
+
+li a:hover{
+    text-decoration: underline ;
+    color: rgb(245, 222, 179 ,0.5);
+    
+}
+
+
+
+
+/* a{
+    text-decoration:  none ;    links ke neeche ki underline hatane ke liye 
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+we cant apply top bottom, height margins to inline elements ... padding can be done 
+<p> is a block level element and both margin and the padding can be done here 
+block leve elements already have 100% of width 
